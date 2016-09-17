@@ -11,4 +11,6 @@ function showStreetcar() {
     }
     document.getElementById("toolsContentLeft").style.display = 'none';
 
+    document.getElementById("contentBackground").style.padding = "0px";
+
   }
