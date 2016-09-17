@@ -13,4 +13,5 @@ function showStreetcar() {
 
     document.getElementById("contentBackground").style.padding = "0px";
 
+    console.log("finished android display");
   }
