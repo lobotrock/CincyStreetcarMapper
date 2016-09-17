@@ -1,35 +1,40 @@
 package com.lobotrock.cincystreetcarmapper;
 
-import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
-import android.view.Window;
+import android.view.View;
+import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
+
 import java.io.IOException;
 import java.io.InputStream;
 
 public class MainActivity extends AppCompatActivity {
+    protected ProgressBar progressBar;
+    protected WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        progressBar = (ProgressBar)findViewById(R.id.progressBar);
+        webView = (WebView)findViewById(R.id.webView);
+        webView.setVisibility(View.GONE);
 
-        WebView webview = new WebView(this);
-        setContentView(webview);
+        //TODO: Get scrolling and zooming working on map
+        webView.getSettings().setJavaScriptEnabled(true);
 
-        webview.getSettings().setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient() {
 
-        final Activity activity = this;
-        webview.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
 
-                injectScriptFile(view, "js/script.js"); // see below ...
+                injectScriptFile(view, "js/script.js");
 
                 // Running injected script
                 view.loadUrl("javascript:setTimeout(showStreetcar(), 100)");
@@ -61,6 +66,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        webview.loadUrl("http://bustracker.go-metro.com/hiwire?.a=iRealTimeDisplay");
+        webView.setWebChromeClient(new WebChromeClient(){
+            public void onProgressChanged(WebView view, int progress) {
+                if(progress < 100 && progressBar.getVisibility() == ProgressBar.GONE){
+                    //TODO: Get progressbar to show progress
+                    progressBar.setProgress(progress);
+                    progressBar.setVisibility(ProgressBar.VISIBLE);
+                    //webView.setVisibility(WebView.GONE);
+                }
+                progressBar.setProgress(progress);
+                if(progress == 100 && webView.getVisibility() == View.GONE) {
+                    progressBar.setVisibility(ProgressBar.GONE);
+                    //TODO: Get webView to be focused
+                    webView.setVisibility(View.VISIBLE);
+
+                }
+            }
+        });
+        
+        webView.loadUrl("http://bustracker.go-metro.com/hiwire?.a=iRealTimeDisplay");
     }
 }
