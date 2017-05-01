@@ -1,11 +1,11 @@
 'use strict';
-function showStreetcar() {
+function showRoute() {
     var routes = document.getElementsByClassName("routeTextDir");
     for (var i = 0; i < routes.length; i++) {
 
         var routeName = new String(routes[i].textContent);
 
-        if(routeName.length > 1 && routeName.indexOf("Streetcar") !== -1){
+        if(routeName.length > 1 && routeName.indexOf("<selectedRoute>") !== -1){
             routes[i].click();
         }
     }
