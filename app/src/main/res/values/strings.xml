@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Cincinnati Bus and Streetcar Map</string>
+    <string name="recent_header">Recent Routes</string>
+    <string name="all_header">All Routes</string>
 </resources>

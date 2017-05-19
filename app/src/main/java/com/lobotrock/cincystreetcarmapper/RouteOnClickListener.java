@@ -30,6 +30,6 @@ public class RouteOnClickListener implements AdapterView.OnItemClickListener {
         //Loading next activity
         Intent intent = new Intent(activity, MapActivity.class);
         intent.putExtra(MainActivity.ROUTE, selectedRoute.searchText);
-        activity.startActivity(intent);
+        activity.startActivityForResult(intent, 1);
     }
 }

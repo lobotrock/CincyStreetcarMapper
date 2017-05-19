@@ -1,5 +1,6 @@
 package com.lobotrock.cincystreetcarmapper;
 
+import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -24,6 +25,8 @@ import java.io.InputStreamReader;
  *
  * Created by Drew Albrecht on 5/1/17.
  */
+
+@SuppressLint("SetJavaScriptEnabled")
 public class MapActivity extends AppCompatActivity {
     protected ProgressDialog progressDialog;
     protected WebView webView;
@@ -164,5 +167,4 @@ public class MapActivity extends AppCompatActivity {
             loadStreetCarView();
         }
     }
-
 }

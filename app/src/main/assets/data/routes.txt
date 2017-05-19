@@ -1,0 +1,93 @@
+streetcar,Streetcar,Streetcar
+bus,1 - Museum Center Mt. Adams Eden Park - Eastbound,1 - Museum Center Mt. Adams Eden Park - Eastbound
+bus,1 - Museum Center Mt. Adams Eden Park - Westbound,1 - Museum Center Mt. Adams Eden Park - Westbound
+express_bus,2 - Madeira - Kenwood Express - Inbound,2 - Madeira - Kenwood Express - Inbound
+express_bus,2 - Madeira - Kenwood Express - Outbound,2 - Madeira - Kenwood Express - Outbound
+express_bus,3 - Montgomery Express - Job Connection - Inbound,3 - Montgomery Express - Job Connection - Inbound
+express_bus,3 - Montgomery Express - Job Connection - Outbound,3 - Montgomery Express - Job Connection - Outbound
+bus,4 - Kenwood - Blue Ash - Ridge Rd - Inbound,4 - Kenwood - Blue Ash - Ridge Rd - Inbound
+bus,4 - Kenwood - Blue Ash - Ridge Rd - Outbound,4 - Kenwood - Blue Ash - Ridge Rd - Outbound
+bus,6 - Queen City - Westwood - Inbound,6 - Queen City - Westwood - Inbound
+bus,6 - Queen City - Westwood - Outbound,6 - Queen City - Westwood - Outbound
+bus,11 - Madison Road - Hyde Park - Erie - Inbound,11 - Madison Road - Hyde Park - Erie - Inbound
+bus,11 - Madison Road - Hyde Park - Erie - Outbound,11 - Madison Road - Hyde Park - Erie - Outbound
+express_bus,12 - Madisonville Express - Inbound,12 - Madisonville Express - Inbound
+express_bus,12 - Madisonville Express - Outbound,12 - Madisonville Express - Outbound
+express_bus,14 - Forest Park Express - Inbound,14 - Forest Park Express - Inbound
+express_bus,14 - Forest Park Express - Outbound,14 - Forest Park Express - Outbound
+express_bus,15 - Mt Healthy Express - AM Inbound,15 - Mt Healthy Express - AM Inbound
+express_bus,15 - Mt Healthy Express - PM Outbound,15 - Mt Healthy Express - PM Outbound
+bus,16 - Mt Healthy - Spring Grove Ave - Inbound,16 - Mt Healthy - Spring Grove Ave - Inbound
+bus,16 - Mt Healthy - Spring Grove Ave - Outbound,16 - Mt Healthy - Spring Grove Ave - Outbound
+bus,17 - Hamilton Avenue - Inbound,17 - Hamilton Avenue - Inbound
+bus,17 - Hamilton Avenue - Outbound,17 - Hamilton Avenue - Outbound
+bus,19 - Colerain - Northgate - Inbound,19 - Colerain - Northgate - Inbound
+bus,19 - Colerain - Northgate - Outbound,19 - Colerain - Northgate - Outbound
+bus,20 - Winton Rd - Tri - County - Inbound,20 - Winton Rd - Tri - County - Inbound
+bus,20 - Winton Rd - Tri - County - Outbound,20 - Winton Rd - Tri - County - Outbound
+bus,21 - Westwood - Harrison Avenue - Inbound,21 - Westwood - Harrison Avenue - Inbound
+bus,21 - Westwood - Harrison Avenue - Outbound,21 - Westwood - Harrison Avenue - Outbound
+express_bus,23 - Tri - County - Forest Park Express - Inbound,23 - Tri - County - Forest Park Express - Inbound
+express_bus,23 - Tri - County - Forest Park Express - Outbound,23 - Tri - County - Forest Park Express - Outbound
+bus,24 - Mt Washington - Uptown - Inbound,24 - Mt Washington - Uptown - Inbound
+bus,24 - Mt Washington - Uptown - Outbound,24 - Mt Washington - Uptown - Outbound
+express_bus,25 - Mt Lookout - Hyde Park Express - Inbound,25 - Mt Lookout - Hyde Park Express - Inbound
+express_bus,25 - Mt Lookout - Hyde Park Express - Outbound,25 - Mt Lookout - Hyde Park Express - Outbound
+bus,27 - South Cumminsville - Linn Street - Inbound,27 - South Cumminsville - Linn Street - Inbound
+bus,27 - South Cumminsville - Linn Street - Outbound,27 - South Cumminsville - Linn Street - Outbound
+bus,28 - East End - Fairfax - Milford - Inbound,28 - East End - Fairfax - Milford - Inbound
+bus,28 - East End - Fairfax - Milford - Outbound,28 - East End - Fairfax - Milford - Outbound
+express_bus,29 - Milford Express - Inbound,29 - Milford Express - Inbound
+express_bus,29 - Milford Express - Outbound,29 - Milford Express - Outbound
+express_bus,30 - Beechmont - 8 Mile Express - Inbound,30 - Beechmont - 8 Mile Express - Inbound
+express_bus,30 - Beechmont - 8 Mile Express - Outbound,30 - Beechmont - 8 Mile Express - Outbound
+bus,31 - Crosstown - Queensgate - Evanston - Eastbound,31 - Crosstown - Queensgate - Evanston - Eastbound
+bus,31 - Crosstown - Queensgate - Evanston - Westbound,31 - Crosstown - Queensgate - Evanston - Westbound
+bus,32 - Price Hill - Delhi - Covedale - Inbound,32 - Price Hill - Delhi - Covedale - Inbound
+bus,32 - Price Hill - Delhi - Covedale - Outbound,32 - Price Hill - Delhi - Covedale - Outbound
+bus,33 - Glenway Avenue - Inbound,33 - Glenway Avenue - Inbound
+bus,33 - Glenway Avenue - Outbound,33 - Glenway Avenue - Outbound
+bus,38 - Glenway Crossing - Uptown - Inbound,38 - Glenway Crossing - Uptown - Inbound
+bus,38 - Glenway Crossing - Uptown - Outbound,38 - Glenway Crossing - Uptown - Outbound
+express_bus,40 - Montana Avenue Express - Inbound,40 - Montana Avenue Express - Inbound
+express_bus,40 - Montana Avenue Express - Outbound,40 - Montana Avenue Express - Outbound
+bus,41 - Crosstown: Westwood - Oakley - Eastbound,41 - Crosstown: Westwood - Oakley - Eastbound
+bus,41 - Crosstown: Westwood - Oakley - Westbound,41 - Crosstown: Westwood - Oakley - Westbound
+express_bus,42 - West Chester Express - Inbound,42 - West Chester Express - Inbound
+express_bus,42 - West Chester Express - Outbound,42 - West Chester Express - Outbound
+bus,43 - Reading Rd-Winton Hills-Bond Hill - Inbound,43 - Reading Rd-Winton Hills-Bond Hill - Inbound
+bus,43 - Reading Rd-Winton Hills-Bond Hill - Outbound,43 - Reading Rd-Winton Hills-Bond Hill - Outbound
+bus,46 - Avondale - Corryville - Zoo - Inbound,46 - Avondale - Corryville - Zoo - Inbound
+bus,46 - Avondale - Corryville - Zoo - Outbound,46 - Avondale - Corryville - Zoo - Outbound
+bus,49 - Queensgate - Fairmount - Inbound,49 - Queensgate - Fairmount - Inbound
+bus,49 - Queensgate - Fairmount - Outbound,49 - Queensgate - Fairmount - Outbound
+bus,50 - River Road - Saylor Park - Inbound,50 - River Road - Saylor Park - Inbound
+bus,50 - River Road - Saylor Park - Outbound,50 - River Road - Saylor Park - Outbound
+bus,51 - Glenway Crossing - Hyde Park Oakley - Westbound,51 - Glenway Crossing - Hyde Park Oakley - Westbound
+bus,51 - Glenway Crossing - Hyde Park Oakley - Eastbound,51 - Glenway Crossing - Hyde Park Oakley - Eastbound
+express_bus,52 - Harrison Express - Inbound,52 - Harrison Express - Inbound
+express_bus,52 - Harrison Express - Outbound,52 - Harrison Express - Outbound
+bus,64 - Glenway Crossing Westwood McMicken - Inbound,64 - Glenway Crossing Westwood McMicken - Inbound
+bus,64 - Glenway Crossing Westwood McMicken - Outbound,64 - Glenway Crossing Westwood McMicken - Outbound
+bus,67 - Sharonville Blue Ash Job Connection - Inbound,67 - Sharonville Blue Ash Job Connection - Inbound
+bus,67 - Sharonville Blue Ash Job Connection - Outbound,67 - Sharonville Blue Ash Job Connection - Outbound
+express_bus,71 - Warren County Express Kings Island - Inbound,71 - Warren County Express Kings Island - Inbound
+express_bus,71 - Warren County Express Kings Island - Outbound,71 - Warren County Express Kings Island - Outbound
+bus,72 - Kings Island Direct - Inbound,72 - Kings Island Direct - Inbound
+bus,72 - Kings Island Direct - Outbound,72 - Kings Island Direct - Outbound
+express_bus,74 - Colerain Express - Inbound,74 - Colerain Express - Inbound
+express_bus,74 - Colerain Express - Outbound,74 - Colerain Express - Outbound
+express_bus,75 - Anderson Express - Inbound,75 - Anderson Express - Inbound
+express_bus,75 - Anderson Express - Outbound,75 - Anderson Express - Outbound
+express_bus,77 - Delhi Express - Glenway Crossing - Inbound,77 - Delhi Express - Glenway Crossing - Inbound
+express_bus,77 - Delhi Express - Glenway Crossing - Outbound,77 - Delhi Express - Glenway Crossing - Outbound
+bus,78 - Tri - County - Lincoln Heights - Inbound,78 - Tri - County - Lincoln Heights - Inbound
+bus,78 - Tri - County - Lincoln Heights - Outbound,78 - Tri - County - Lincoln Heights - Outbound
+express_bus,81 - Mt. Washington Express - Inbound,81 - Mt. Washington Express - Inbound
+express_bus,81 - Mt. Washington Express - Outbound,81 - Mt. Washington Express - Outbound
+express_bus,82 - Eastgate Express - Inbound,82 - Eastgate Express - Inbound
+express_bus,82 - Eastgate Express - Outbound,82 - Eastgate Express - Outbound
+bus,85 - Riverfront Parking Shuttle - AM Inbound,85 - Riverfront Parking Shuttle - AM Inbound
+bus,85 - Riverfront Parking Shuttle - PM Outbound,85 - Riverfront Parking Shuttle - PM Outbound
+bus,90 - MetroPlus - Kenwood - Inbound,90 - MetroPlus - Kenwood - Inbound
+bus,90 - MetroPlus - Kenwood - Outbound,90 - MetroPlus - Kenwood - Outbound)

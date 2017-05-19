@@ -29,7 +29,6 @@ public class RouteAdapter extends ArrayAdapter<Route> {
         RouteHolder holder;
 
         Route route = routes[position];
-        //TODO: If there are no results return nothing
 
         if(row == null){
             LayoutInflater inflater = ((Activity)context).getLayoutInflater();
