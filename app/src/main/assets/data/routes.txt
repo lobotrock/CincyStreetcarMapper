@@ -43,8 +43,8 @@ express_bus,30 - Beechmont - 8 Mile Express - Inbound,30 - Beechmont - 8 Mile Ex
 express_bus,30 - Beechmont - 8 Mile Express - Outbound,30 - Beechmont - 8 Mile Express - Outbound
 bus,31 - Crosstown - Queensgate - Evanston - Eastbound,31 - Crosstown - Queensgate - Evanston - Eastbound
 bus,31 - Crosstown - Queensgate - Evanston - Westbound,31 - Crosstown - Queensgate - Evanston - Westbound
-bus,32 - Price Hill - Delhi - Covedale - Inbound,32 - Price Hill - Delhi - Covedale - Inbound
-bus,32 - Price Hill - Delhi - Covedale - Outbound,32 - Price Hill - Delhi - Covedale - Outbound
+bus,32 - Price Hill - Delhi - Sayler Park - Inbound,32 - Price Hill - Delhi - Sayler Park - Inbound
+bus,32 - Price Hill - Delhi - Sayler Park - Outbound,32 - Price Hill - Delhi - Sayler Park - Outbound`
 bus,33 - Glenway Avenue - Inbound,33 - Glenway Avenue - Inbound
 bus,33 - Glenway Avenue - Outbound,33 - Glenway Avenue - Outbound
 bus,38 - Glenway Crossing - Uptown - Inbound,38 - Glenway Crossing - Uptown - Inbound
